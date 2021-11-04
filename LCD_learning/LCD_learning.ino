@@ -25,7 +25,7 @@ void loop() {
       lcd.setCursor(0, 1);
       switch(reply){
         case 0:
-        lcd.print("Yes");
+        lcd.print("Ano");
         break;
         case 1:
         lcd.print("Most likely");
@@ -34,7 +34,7 @@ void loop() {
         lcd.print("Certainly");
         break;
         case 3:
-        lcd.print("Outlook good");
+        lcd.print("Chacarron");
         break;
         case 4:
         lcd.print("Unsure");
@@ -46,7 +46,7 @@ void loop() {
         lcd.print("Doubtful");
         break;
         case 7:
-        lcd.print("No");
+        lcd.print("Ne");
         break;        
         }
       }
